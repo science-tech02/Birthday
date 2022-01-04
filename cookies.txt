@@ -1,0 +1,36 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.w3.org	TRUE	/blog/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+dare4frnd.hktechnical.com	TRUE	/	FALSE	1999999999	PHPSESSID	ae446838f6b4cdab1821815c906b177a
+static.cloudflareinsights.com	TRUE	/	FALSE	1999999999	cf_ob_info	522:6c820171db1672f7:LHR
+static.cloudflareinsights.com	TRUE	/	FALSE	1999999999	cf_use_ob	443
+edx.org	TRUE	/	FALSE	1999999999	prod-edx-cf-loc	IN
+.drafts.csswg.org	TRUE	/	FALSE	1999999999	drafts_secure_access	443
+.drafts.csswg.org	TRUE	/	FALSE	1999999999	drafts_crumbs	test+cookie
+auth.w3.org	TRUE	/	FALSE	1999999999	PHPSESSID	qg4l8p1do7r6gdfoitqbh4ipeb
+www.ercim.eu	TRUE	/	FALSE	1999999999	08fec02b6b9e17804c7a05d5ce9de096	bmppn53g2vhqmbbkeel5fp5913
+www.keio.ac.jp	TRUE	/	FALSE	1999999999	NSC_xxx.lfjp.bd.kq-w4-443	ffffffffc3a0013145525d5f4f58455e445a4a4229a0
+www.iso.org	TRUE	/	FALSE	1999999999	BIGipServerpool_prod_iso_www-jahia	713576842.36895.0000
+www.iso.org	TRUE	/	FALSE	1999999999	JSESSIONID	B59C6BFB3E61D2C62822532F951BBC8B
+en.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	04-Jan-2022
+.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access-Global	04-Jan-2022
+.wikipedia.org	TRUE	/	FALSE	1999999999	GeoIP	IN:DL:Delhi:28.65:77.24:v4
+.youtube.com	TRUE	/	FALSE	1999999999	GPS	1
+.youtube.com	TRUE	/	FALSE	1999999999	YSC	zQ_tVOmHeu8
+youtu.be	TRUE	/	FALSE	1999999999	SameSite	none
+.youtube.com	TRUE	/	FALSE	1999999999	VISITOR_INFO1_LIVE	L0U61ah3gKE
+www.youtube.com	TRUE	/	FALSE	1999999999	SameSite	none
+github.com	TRUE	/	FALSE	1999999999	_octo	GH1.1.1519705335.1641273894
+github.com	TRUE	/	FALSE	1999999999	logged_in	no
+www.w3.org	TRUE	/	FALSE	1999999999	PHPSESSID	cfsh133ouhjimi7cbnt7i8etpq
+www.w3.org	TRUE	/	FALSE	1999999999	SameSite	lax
+www.twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id_marketing	v1%3A164127408708697508
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id_ads	v1%3A164127408708697508
+.twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_lpayC5dEf8gZGj65uE0TBw=="
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A164127408708697508
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+github.com	TRUE	/	FALSE	1999999999	_device_id	3b5521a6c3cb2c875ce55a726562bcb7
+github.com	TRUE	/	FALSE	1999999999	_gh_sess	yyR6bzxyp94dyadlaaPxwPtJuXBDmYTvjuTGMbAlClBeqnsDsAPznY8ZYy%2BPV7ZCEo%2FdAMprRPiNa6BWhOCCarfSKbwFJ3j2%2BZnJlOTl7%2BnEk1OdOpMUO%2BEmS9awch9VMUx%2BVNn4gi%2Fw9RPeRap%2FFOQUJmcF9LffudgqogKSWhWu96nbaHBknACwLkHlh5W4uWiXz7HO4TXOqjhY9tOPDtJiWJZj3YRDfc7%2BKJosXOo7ef8zQ5Rt%2BWgH1pxFS%2B4DqCg1R0PZYyxpt3DEDDRWWw%3D%3D--%2FfyKvwz6Ka2hpYI3--%2FGl%2FkSInQsVwbKVKQ8oSFw%3D%3D
+github.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

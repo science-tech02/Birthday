@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+
+<html>
+  
+<!-- Mirrored from web-platform-tests.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jan 2022 05:29:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>web-platform-tests documentation &#8212; web-platform-tests  documentation</title>
+    <link rel="stylesheet" type="text/css" href="https://web-platform-tests.org/_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="https://web-platform-tests.org/_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="https://web-platform-tests.org/_static/documentation_options.js"></script>
+    <script src="https://web-platform-tests.org/_static/jquery.js"></script>
+    <script src="https://web-platform-tests.org/_static/underscore.js"></script>
+    <script src="https://web-platform-tests.org/_static/doctools.js"></script>
+    <link rel="index" title="Index" href="https://web-platform-tests.org/genindex.html" />
+    <link rel="search" title="Search" href="https://web-platform-tests.org/search.html" />
+    <link rel="next" title="Test Suite Design" href="https://web-platform-tests.org/test-suite-design.html" />
+   
+  <link rel="stylesheet" href="https://web-platform-tests.org/_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="web-platform-tests-documentation">
+<h1>web-platform-tests documentation<a class="headerlink" href="#web-platform-tests-documentation" title="Permalink to this headline">¶</a></h1>
+<p>The web-platform-tests project is a cross-browser test suite for <a class="reference external" href="https://platform.html5.org/">the
+Web-platform stack</a>. Writing tests in a way that
+allows them to be run in all browsers gives browser projects confidence that
+they are shipping software which is compatible with other implementations, and
+that later implementations will be compatible with their implementations. This
+in turn gives Web authors/developers confidence that they can actually rely on
+the Web platform to deliver on the promise of working across browsers and
+devices without needing extra layers of abstraction to paper over the gaps left
+by specification editors and implementors.</p>
+<p>The most important sources of information and activity are:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/web-platform-tests/wpt">github.com/web-platform-tests/wpt</a>:
+the canonical location of the project’s source code revision history and the
+discussion forum for changes to the code</p></li>
+<li><p><a class="reference external" href="https://web-platform-tests.org/">web-platform-tests.org</a>: the documentation
+website; details how to set up the project, how to write tests, how to give
+and receive peer review, how to serve as an administrator, and more</p></li>
+<li><p><a class="reference external" href="https://wpt.live/">wpt.live</a>: a public deployment of the test suite,
+allowing anyone to run the tests by visiting from an
+Internet-enabled browser of their choice</p></li>
+<li><p><a class="reference external" href="https://wpt.fyi/">wpt.fyi</a>: an archive of test results collected from an
+array of web browsers on a regular basis</p></li>
+<li><p><a class="reference external" href="https://app.element.io/#/room/#wpt:matrix.org">Real-time chat room</a>: the
+<code class="docutils literal notranslate"><span class="pre">wpt:matrix.org</span></code> matrix channel; includes participants located
+around the world, but busiest during the European working day.</p></li>
+<li><p><a class="reference external" href="https://lists.w3.org/Archives/Public/public-test-infra/">Mailing list</a>: a
+public and low-traffic discussion list</p></li>
+</ul>
+<p><strong>If you’d like clarification about anything</strong>, don’t hesitate to ask in the
+chat room or on the mailing list.</p>
+<section id="video-introduction-transcript">
+<h2>Video Introduction (<a class="reference internal" href="https://web-platform-tests.org/intro-video-transcript.html"><span class="doc">transcript</span></a>)<a class="headerlink" href="#video-introduction-transcript" title="Permalink to this headline">¶</a></h2>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/zuK1uyXPZS0"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen></iframe><p>See also <a class="reference external" href="https://www.youtube.com/watch?v=XnfE3MfH5hQ">this lecture from Web Engines Hackfest 2018 (30
+minutes)</a></p>
+</section>
+<section id="github">
+<h2>GitHub<a class="headerlink" href="#github" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/web-platform-tests/wpt/">GitHub</a> is used both for <a class="reference external" href="https://github.com/web-platform-tests/wpt/issues">issue tracking</a> and <a class="reference external" href="https://github.com/web-platform-tests/wpt/pulls">test submissions</a>; we
+provide <a class="reference internal" href="https://web-platform-tests.org/writing-tests/github-intro.html"><span class="doc">a limited introduction</span></a> to both git and
+GitHub.</p>
+<p>Pull Requests are automatically labeled based on the directory the
+files they change are in; there are also comments added automatically
+to notify a number of people: this list of people comes from META.yml
+files in those same directories and their parents (i.e., they work
+recursively: <code class="docutils literal notranslate"><span class="pre">a/META.yml</span></code> will get notified for <code class="docutils literal notranslate"><span class="pre">a/foo.html</span></code> and
+<code class="docutils literal notranslate"><span class="pre">a/b/bar.html</span></code>).</p>
+<p>If you want to be notified about changes to tests in a directory, feel
+free to add yourself to the META.yml file!</p>
+</section>
+<section id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/test-suite-design.html">Test Suite Design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/test-suite-design.html#test-layout">Test Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/test-suite-design.html#test-types">Test Types</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/intro-video-transcript.html">“Introduction to WPT” video transcript</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/running-tests/index.html">Running Tests</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/running-tests/from-web.html">Running Tests from the Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/running-tests/from-local-system.html">Running Tests from the Local System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/running-tests/from-ci.html">Running Tests on CI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/running-tests/custom-runner.html">Writing Your Own Runner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/tools/certs/README.html">WPT Test Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/writing-tests/index.html">Writing Tests</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/writing-tests/index.html#test-types">Test Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/writing-tests/index.html#submitting-tests">Submitting Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/writing-tests/index.html#table-of-contents">Table of Contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/index.html">Reviewing Tests</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/checklist.html">Review Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/email.html">Email Filters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/git.html">Working with Pull Requests as a reviewer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/reverting.html">Reverting Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/index.html#test-review-policy">Test Review Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/index.html#notifications">Notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/index.html#finding-contributions-to-review">Finding contributions to review</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/admin/index.html">Project Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/admin/index.html#tooling">Tooling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/admin/index.html#secrets">Secrets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/admin/index.html#third-party-account-owners">Third-party account owners</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://web-platform-tests.org/admin/index.html#emergency-playbook">Emergency playbook</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">web-platform-tests</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/test-suite-design.html">Test Suite Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/intro-video-transcript.html">“Introduction to WPT” video transcript</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/running-tests/index.html">Running Tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/writing-tests/index.html">Writing Tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/reviewing-tests/index.html">Reviewing Tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://web-platform-tests.org/admin/index.html">Project Administration</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="https://web-platform-tests.org/test-suite-design.html" title="next chapter">Test Suite Design</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="https://web-platform-tests.org/search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, wpt contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="https://web-platform-tests.org/_sources/index.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+
+<!-- Mirrored from web-platform-tests.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jan 2022 05:29:20 GMT -->
+</html>

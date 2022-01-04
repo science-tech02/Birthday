@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	xml:base="https://www.w3.org/blog/news/wp-atom.php"
+	>
+	<title type="text">W3C News</title>
+	<subtitle type="text">Leading the Web to its Full Potential</subtitle>
+
+	<updated>2021-12-21T08:47:04Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news" />
+	<id>https://www.w3.org/blog/news/feed/atom</id>
+	<link rel="self" type="application/atom+xml" href="https://www.w3.org/blog/news/feed/atom" />
+
+	<generator uri="https://wordpress.org/" version="5.7.4">WordPress</generator>
+	<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[CSS Snapshot 2021 Note Published]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9388" />
+
+		<id>https://www.w3.org/blog/news/?p=9388</id>
+		<updated>2021-12-21T08:44:11Z</updated>
+		<published>2021-12-21T08:44:11Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The CSS Working Group has published a Group Note of CSS Snapshot 2021. This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2021. The primary audience is CSS implementers, not CSS authors, as this definition includes modules by specification stability, not [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9388"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/css">CSS Working Group</a> has published a Group Note of <a href="https://www.w3.org/TR/2021/NOTE-css-2021-20211221/">CSS Snapshot 2021</a>. This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2021. The primary audience is CSS implementers, not CSS authors, as this definition includes modules by specification stability, not Web browser adoption rate.</p>
+<p><a href="https://www.w3.org/TR/CSS/">CSS</a> is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, etc.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[Three First Public Working Drafts published by the CSS Working Group]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9383" />
+
+		<id>https://www.w3.org/blog/news/?p=9383</id>
+		<updated>2021-12-21T08:36:10Z</updated>
+		<published>2021-12-21T08:36:10Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The CSS Working Group has published the following three First Public Working Drafts: CSS Containment Module Level 3: This CSS module describes the &#8216;contain&#8217; property, which indicates that the element’s subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well. CSS Conditional Rules Module Level 5: [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9383"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/css">CSS Working Group</a> has published the following three First Public Working Drafts:</p>
+<ul class="show_items">
+<li><a href="https://www.w3.org/TR/2021/WD-css-contain-3-20211221/">CSS Containment Module Level 3</a>: This CSS module describes the <a href="https://www.w3.org/TR/css-contain-1/#propdef-contain">&#8216;contain&#8217;</a> property, which indicates that the element’s subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.</li>
+<li><a href="https://www.w3.org/TR/2021/WD-css-conditional-5-20211221/">CSS Conditional Rules Module Level 5</a>: This module contains the features of CSS for conditional processing of parts of style sheets, based on capabilities of the processor or the environment the style sheet is being applied in. It includes and extends the functionality of CSS Conditional 4 [<a href="https://www.w3.org/TR/2021/WD-css-conditional-5-20211221/#biblio-css-conditional-4">css-conditional-4</a>], adding the generalized conditional rule <a href="https://www.w3.org/TR/2021/WD-css-conditional-5-20211221/#at-ruledef-when">&#8216;@when&#8217;</a> and the chained conditional rule <a href="https://www.w3.org/TR/2021/WD-css-conditional-5-20211221/#at-ruledef-else">&#8216;@else&#8217;</a>, as well as introducing font processing queries to the <a href="https://drafts.csswg.org/css-conditional-3/#supports-queries">supports query</a> syntax used in <a href="https://www.w3.org/TR/css-conditional-3/#at-ruledef-supports">&#8216;@supports&#8217;</a> rules.</li>
+<li><a href="https://www.w3.org/TR/2021/WD-css-cascade-6-20211221/">CSS Cascading and Inheritance Level 6</a>: This CSS module describes how to collate style rules and assign values to all properties on all elements. By way of cascading and inheritance, values are propagated for all properties on all elements. New in this level is <a href="https://www.w3.org/TR/2021/WD-css-cascade-6-20211221/#scoped-styles">§ 2.5 Scoped Styles</a>.</li>
+</ul>
+<p><a href="https://www.w3.org/TR/CSS/">CSS</a> is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, etc.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[First Public Working Draft: EditContext API]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9391" />
+
+		<id>https://www.w3.org/blog/news/?p=9391</id>
+		<updated>2021-12-21T08:31:04Z</updated>
+		<published>2021-12-21T08:31:04Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Web Editing Working Group has published a First Public Working Draft of EditContext API. The EditContext is a new API that allows authors to more directly participate in the text input process.]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9391"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/webediting">Web Editing Working Group</a> has published a First Public Working Draft of <a href="https://www.w3.org/TR/2021/WD-edit-context-20211221/">EditContext API</a>. The <a href="https://www.w3.org/TR/2021/WD-edit-context-20211221/#dom-editcontext"><code>EditContext</code></a> is a new API that allows authors to more directly participate in the text input process.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[W3C Advisory Committee Elects Technical Architecture Group]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9377" />
+
+		<id>https://www.w3.org/blog/news/?p=9377</id>
+		<updated>2021-12-21T08:29:48Z</updated>
+		<published>2021-12-15T14:03:39Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[The W3C Advisory Committee has elected the following people to the W3C Technical Architecture Group (TAG): Rossen Atanassov (Microsoft Corporation), Dapeng (Max) Liu (Alibaba Group) and Sangwhan Moon (Google). They join co-Chair Tim Berners-Lee and continuing participants, Daniel Appelquist (Samsung Electronics; co-Chair), Hadley Beeman (W3C Invited Expert), Amy Guy (Digital Bazaar), Peter Linss (W3C Invited [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9377"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/2001/tag/"><img loading="lazy" src="https://www.w3.org/blog/news/files/2017/12/w3c-tag-300x300.jpg" alt="W3C TAG logo" width="80" height="80" /></a>The W3C Advisory Committee has <a href="https://www.w3.org/2021/11/16-tag-nominations">elected</a> the following people to the W3C Technical Architecture Group (TAG): Rossen Atanassov (Microsoft Corporation), Dapeng (Max) Liu (Alibaba Group) and Sangwhan Moon (Google). They join co-Chair Tim Berners-Lee and continuing participants, Daniel Appelquist (Samsung Electronics; co-Chair), Hadley Beeman (W3C Invited Expert), Amy Guy (Digital Bazaar), Peter Linss (W3C Invited Expert; co-Chair), Theresa O&#8217;Connor (Apple, Inc.) and Lea Verou (W3C Invited Expert) . Yves Lafon continues as staff contact. Many thanks for contributions to the TAG to the departing participant, Kenneth Rohde Christiansen (Intel Corporation), whose term ends at the end of January 2022.</p>
+<p>The TAG is a special group within the W3C, chartered under the <a href="https://www.w3.org/Consortium/Process/#TAG">W3C Process Document</a>, with stewardship of the Web architecture. The mission of the TAG is to build consensus around principles of Web architecture and to interpret and clarify these principles when necessary, to resolve issues involving general Web architecture brought to the TAG, and to help coordinate cross-technology architecture developments inside and outside W3C. The Members of the TAG participate as individual contributors, not as representatives of their organizations. TAG participants use their best judgment to find the best solutions for the Web, not just for any particular network, technology, vendor, or user. Learn more about the <a href="https://www.w3.org/2001/tag/">TAG</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Happy holidays from the World Wide Web Consortium!]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9373" />
+
+		<id>https://www.w3.org/blog/news/?p=9373</id>
+		<updated>2021-12-14T06:44:16Z</updated>
+		<published>2021-12-13T22:22:19Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Top Story" /><category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[As 2021 is drawing to an end, and the impact of the global pandemic continues to be a weighty blow, this is the second year the W3C community has not really seen each other. Yet, we are meeting the needs of a Web which becomes more and more useful to society. So, please accept our [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9373"><![CDATA[<p><a class="imageLink" href="//www.w3.org/2021/12/w3ceoy2021-anim.html"><img src="//www.w3.org/comm/assets/graphics/EOY/EOY2021_en.png" alt="W3C Holiday Card" width="100" /></a>
+As 2021 is drawing to an end, and the impact of the global pandemic continues to be a weighty blow, this is the second year the W3C community has not really seen each other. Yet, we are meeting the needs of a Web which becomes more and more useful to society. 
+So, please accept our great thanks for all you do, and our very best wishes for the new year.</p>
+<p>This year we made an <a href="//www.w3.org/2021/12/w3ceoy2021-anim.html">animated holiday greeting</a> which we hope you enjoy, as it is an interactive game!</p>
+<p>Warmly, from all of us at the World Wide Web Consortium.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[W3C Invites Implementations of CSS Scrollbars Styling Module Level 1]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9370" />
+
+		<id>https://www.w3.org/blog/news/?p=9370</id>
+		<updated>2021-12-21T08:47:04Z</updated>
+		<published>2021-12-09T14:47:12Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The CSS Working Group has published the CSS Scrollbars Styling Module Level 1 as a W3C Candidate Recommendation Snapshot. This CSS module defines properties to influence the visual styling of scrollbars, introducing controls for their color and width. The Working Group welcomes comments via the GitHub repository issues by 7 February 2022.]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9370"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/css">CSS Working Group</a> has published the <a href="https://www.w3.org/TR/2021/CR-css-scrollbars-1-20211209/">CSS Scrollbars Styling Module Level 1</a> as a W3C Candidate Recommendation Snapshot. This CSS module defines properties to influence the visual styling of scrollbars, introducing controls for their color and width. </p>
+<p>The Working Group welcomes comments via the <a href="https://github.com/w3c/csswg-drafts/issues">GitHub repository issues</a> by <strong>7 February 2022</strong>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[ARIA in HTML is a W3C Recommendation]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9367" />
+
+		<id>https://www.w3.org/blog/news/?p=9367</id>
+		<updated>2021-12-09T08:46:24Z</updated>
+		<published>2021-12-09T08:46:24Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Web Applications Working Group has published ARIA in HTML as a W3C Recommendation. This specification defines the authoring rules (author conformance requirements) for the use of Accessible Rich Internet Applications (WAI-ARIA) 1.1 and Digital Publishing WAI-ARIA Module 1.0 attributes on [HTML] elements. This specification&#8217;s primary objective is to define requirements for use with conformance [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9367"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/webapps">Web Applications Working Group</a> has published <a href="https://www.w3.org/TR/2021/REC-html-aria-20211209/">ARIA in HTML</a> as a W3C Recommendation. This specification defines the authoring rules (author conformance requirements) for the use of <cite><a href="https://www.w3.org/TR/wai-aria-1.1/">Accessible Rich Internet Applications (WAI-ARIA) 1.1</a></cite> and <cite><a href="https://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a></cite> attributes on [<a href="https://www.w3.org/TR/2021/REC-html-aria-20211209/#bib-html">HTML</a>] elements. This specification&#8217;s primary objective is to define requirements for use with conformance checking tools used by authors (i.e., web developers). These requirements will aid authors in their development of web content, including custom interfaces/widgets, that makes use of ARIA to complement or extend the features of the host language [<a href="https://www.w3.org/TR/2021/REC-html-aria-20211209/#bib-html">HTML</a>].</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[Call for Prior Art  —  Second Screen Working Group PAG]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9355" />
+
+		<id>https://www.w3.org/blog/news/?p=9355</id>
+		<updated>2021-12-21T08:27:15Z</updated>
+		<published>2021-12-03T13:50:29Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[The Second Screen Working Group Patent Advisory Group (PAG), launched in August 2021 in response to disclosures related to a specification of the Second Screen Working Group, has issued a Call for Prior Art to seek prior art that is available in the public domain or on terms consistent with W3C&#8217;s Royalty-Free Licensing Requirements. Public [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9355"><![CDATA[<p>The <a href="https://www.w3.org/2021/08/secondscreen-pag/">Second Screen Working Group Patent Advisory Group (PAG)</a>, <a href="https://www.w3.org/blog/news/archives/9201">launched in August 2021</a> in response to <a href="https://www.w3.org/2021/08/secondscreen-pag/#disclosures">disclosures</a> related to a specification of the Second Screen Working Group, has issued a <a href="https://www.w3.org/2021/08/secondscreen-pag/cfpa.html">Call for Prior Art</a> to seek prior art that is available in the public domain or on terms consistent with <a href="https://www.w3.org/Consortium/Patent-Policy-20200915/#sec-Requirements">W3C&#8217;s Royalty-Free Licensing Requirements</a>.</p>
+<p>Public comments may be directed to <a href="mailto:public-secondscreen-pag@w3.org">public-secondscreen-pag@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-secondscreen-pag/">public archive</a>) by <strong>31 March 2022</strong>. For more information about the Second Screen Working Group PAG, see its <a href="https://www.w3.org/2021/08/secondscreen-pag/">home page</a> and <a href="https://www.w3.org/2021/08/secondscreen-pag/charter.html">charter</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[W3C Invites Implementations of User Timing and Performance Timeline]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9353" />
+
+		<id>https://www.w3.org/blog/news/?p=9353</id>
+		<updated>2021-12-21T08:28:16Z</updated>
+		<published>2021-12-02T07:04:41Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Web Performance Working Group invites implementations of two Candidate Recommendation Snapshots: User Timing defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps. Performance Timeline extends the High Resolution Time specification [HR-TIME-3] by providing methods to store and retrieve high resolution performance metric [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9353"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/webperf">Web Performance Working Group</a> invites implementations of two Candidate Recommendation Snapshots:</p>
+<ul class="show_items">
+<li><a href="https://www.w3.org/TR/2021/CR-user-timing-20211202/">User Timing</a> defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</li>
+<li><a href="https://www.w3.org/TR/2021/CR-performance-timeline-20211202/">Performance Timeline</a> extends the High Resolution Time specification [<a href="https://www.w3.org/TR/2021/CR-performance-timeline-20211202/#bib-hr-time-3">HR-TIME-3</a>] by providing methods to store and retrieve high resolution performance metric data.</li>
+</ul>
+<p>Comments are welcome by <strong>01 February 2022</strong>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[First Public Working Draft: MiniApp Packaging]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9346" />
+
+		<id>https://www.w3.org/blog/news/?p=9346</id>
+		<updated>2021-12-21T08:27:33Z</updated>
+		<published>2021-11-30T08:17:00Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The MiniApps Working Group has published a First Public Working Draft of MiniApp Packaging. This specification defines semantics and conformance requirements for a MiniApp package, and the structure of the single file container that holds the resources of a MiniApp, including a manifest file, static page templates, stylesheets, JavaScript documents, media files and other resources. [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9346"><![CDATA[<p>The <a href="https://www.w3.org/2021/miniapps/">MiniApps Working Group</a> has published a First Public Working Draft of <a href="https://www.w3.org/TR/2021/WD-miniapp-packaging-20211130/">MiniApp Packaging</a>. This specification defines semantics and conformance requirements for a <a href="https://www.w3.org/TR/2021/WD-miniapp-packaging-20211130/#dfn-package">MiniApp package</a>, and the structure of the single file container that holds the resources of a MiniApp, including a manifest file, static page templates, stylesheets, JavaScript documents, media files and other resources. Instances of the <a href="https://www.w3.org/TR/2021/WD-miniapp-packaging-20211130/#dfn-package">MiniApp package</a> are used for MiniApp distribution and execution on runtime environments (<a href="https://www.w3.org/TR/2021/WD-miniapp-packaging-20211130/#dfn-useragent">MiniApp user agent</a>).</p>
+<p>The Working Group welcomes comments via the <a href="https://github.com/w3c/miniapp-packaging/issues">GitHub repository issues</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[First Public Working Draft: Digital Publishing Accessibility API Mappings 1.1]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9349" />
+
+		<id>https://www.w3.org/blog/news/?p=9349</id>
+		<updated>2021-12-15T14:00:15Z</updated>
+		<published>2021-11-30T08:16:12Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Accessible Rich Internet Applications Working Group has published a First Public Working Draft of Digital Publishing Accessibility API Mappings 1.1. The Digital Publishing Accessibility API Mappings (DPub-AAM) defines how user agents map the Digital Publishing WAI-ARIA Module [dpub-aria-1.1] markup to platform accessibility APIs. It is intended for user agent developers responsible for accessibility in [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9349"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/aria">Accessible Rich Internet Applications Working Group</a> has published a First Public Working Draft of <a href="https://www.w3.org/TR/2021/WD-dpub-aam-1.1-20211130/">Digital Publishing Accessibility API Mappings 1.1</a>. The Digital Publishing Accessibility API Mappings (DPub-AAM) defines how <a class="termref informative">user agents</a> map the Digital Publishing WAI-ARIA Module [<a href="https://www.w3.org/TR/2021/WD-dpub-aam-1.1-20211130/#bib-dpub-aria-1.1">dpub-aria-1.1</a>] markup to platform <a class="termref informative"> accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a>. It is intended for user agent developers responsible for accessibility in their user agent so that they can support the accessibility content produced for digital publishing.</p>
+<p>The implementation of this specification in user agents enables authors to produce more accessible e-books, by conveying structural book constructs used by the digital publishing industry to assistive technologies. It does this by extending the <a href="https://www.w3.org/TR/core-aam-1.1/">Core Accessibility API Mappings 1.1</a> and the <a href="https://www.w3.org/TR/accname-1.1/">Accessible Name and Description: Computation and API Mappings 1.1</a> specifications for user agents. It provides Accessibility API Mapping guidance for the roles defined in the Digital Publish WAI-ARIA Module.</p>
+<p>The DPub-AAM is part of the WAI-ARIA suite described in the<a href="https://www.w3.org/WAI/standards-guidelines/aria/"> WAI-ARIA Overview</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[W3C opens Technical Architecture Group (TAG) election]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9338" />
+
+		<id>https://www.w3.org/blog/news/?p=9338</id>
+		<updated>2021-12-15T13:59:48Z</updated>
+		<published>2021-11-16T09:54:48Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Top Story" /><category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[The W3C Advisory Committee, having nominated four individuals, is invited today to vote until 14 December 2021 for three seats in the W3C Technical Architecture Group (TAG) election. The TAG is a special working group within the W3C, chartered under the W3C Process Document, with stewardship of the Web architecture. Some aspects of its mission [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9338"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/2021/11/16-tag-nominations"><img loading="lazy" src="https://www.w3.org/blog/news/files/2017/12/w3c-tag-300x300.jpg" alt="W3C TAG logo" width="80" height="80" /></a>The W3C Advisory Committee, having <a href="https://www.w3.org/2021/11/16-tag-nominations">nominated</a> four individuals, is invited today to vote until 14 December 2021 for <strong>three seats</strong> in the <a href="https://www.w3.org/2001/tag/">W3C Technical Architecture Group (TAG)</a> election.</p>
+<p>The TAG is a special working group within the W3C, chartered under the <a href="https://www.w3.org/Consortium/Process/#TAG">W3C Process Document</a>, with stewardship of the Web architecture. Some aspects of its mission include:</p>
+<ul class="show_items">
+<li>to document and build consensus around principles of Web architecture and
+to interpret and clarify these principles when necessary;</li>
+<li>to resolve issues involving general Web architecture brought to the
+TAG;</li>
+<li>to help coordinate cross-technology architecture developments inside and
+outside W3C.</li>
+</ul>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Job: Automotive and Transportation Champion (USA, China, Japan)]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9330" />
+
+		<id>https://www.w3.org/blog/news/?p=9330</id>
+		<updated>2021-11-15T13:38:36Z</updated>
+		<published>2021-11-15T13:23:14Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Top Story" /><category scheme="https://www.w3.org/blog/news" term="Web of Devices" /><category scheme="https://www.w3.org/blog/news" term="Web of Services" /><category scheme="https://www.w3.org/blog/news" term="job" />
+		<summary type="html"><![CDATA[We are excited to announce an open position (possibly part-time) : Automotive &#38; Transportation Champion, based in the USA or China, or Japan. This is an opportunity for a global leader to drive the overall strategy of applying open web standards to the automotive &#38; transportation ecosystem. The Champion is a thought leader who has [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9330"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/Consortium/Recruitment/#2021-automotive-champion"><img src="https://www.w3.org/comm/assets/icons/handshake.png" alt="handshake" width="100" /></a>We are excited to announce an open position (possibly part-time) : <a href="https://www.w3.org/Consortium/Recruitment/#2021-automotive-champion">Automotive &amp; Transportation Champion</a>, based in the USA or China, or Japan.</p>
+<p>This is an opportunity for a global leader to drive the overall strategy of applying open web standards to the automotive &amp; transportation ecosystem. The Champion is a thought leader who has a deep understanding of the needs of the automotive industry and a working understanding of web technology. The Champion engages with other automotive thought leaders from W3C Members and with technologists in W3C. By bringing these groups together, the Champion identifies new technology needs for the industry and identifies technical and business approaches to satisfy those needs.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[Authorized Translation of WCAG 2.1 in Arabic]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9327" />
+
+		<id>https://www.w3.org/blog/news/?p=9327</id>
+		<updated>2021-11-30T02:44:34Z</updated>
+		<published>2021-11-12T00:12:08Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[The World Wide Web Consortium published the Authorized Arabic Translation of Web Content Accessibility Guidelines (WCAG) 2.1, مبادئ النفاذ إلى محتوى الويب (WCAG2.1). The Lead Translation Organization for this Authorized Translation was the Mada Center, Qatar. Translations in other languages are listed in WCAG 2 Translations. W3C Web Accessibility Initiative (WAI) particularly encourages the development [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9327"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/TR/WCAG21/"><img style="float: left;margin-right: 1em" src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="Screenshot showing the w3c logo and the title of the W3C WCAG 2.1 Web Content Accessibility Guidelines" width="150" /></a>The World Wide Web Consortium published the Authorized Arabic Translation of <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">Web Content Accessibility Guidelines (WCAG) 2.1</a>, <a href="https://www.w3.org/Translations/WCAG21-ar/">مبادئ النفاذ إلى محتوى الويب (WCAG2.1)</a>. The Lead Translation Organization for this Authorized Translation was the <a href="https://www.mada.org.qa">Mada Center, Qatar</a>.</p>
+<p>Translations in other languages are listed in <a href="https://www.w3.org/WAI/standards-guidelines/wcag/translations/">WCAG 2 Translations</a>. W3C Web Accessibility Initiative (<a href="https://www.w3.org/WAI/">WAI</a>) particularly encourages the development of Authorized Translations of WCAG 2.1 and other technical specifications to facilitate their adoption and implementation internationally. Read about the <a href="https://www.w3.org/2005/02/TranslationPolicy">Policy for W3C Authorized Translations</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[Last Call for Review of Proposed Corrections: Verifiable Credentials Data Model v1.1 Recommendation]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9324" />
+
+		<id>https://www.w3.org/blog/news/?p=9324</id>
+		<updated>2021-12-09T08:47:18Z</updated>
+		<published>2021-11-09T12:47:05Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Verifiable Credentials Working Group has proposed corrections to the W3C Recommendation of Verifiable Credentials Data Model v1.1. Credentials are a part of our daily lives; driver&#8217;s licenses are used to assert that we are capable of operating a motor vehicle, university degrees can be used to assert our level of education, and government-issued passports [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9324"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/vc">Verifiable Credentials Working Group</a> has proposed corrections to the W3C Recommendation of <a href="https://www.w3.org/TR/2021/REC-vc-data-model-20211109/">Verifiable Credentials Data Model v1.1</a>. <a href="https://www.w3.org/TR/2021/REC-vc-data-model-20211109/#dfn-credential">Credentials</a> are a part of our daily lives; driver&#8217;s licenses are used to assert that we are capable of operating a motor vehicle, university degrees can be used to assert our level of education, and government-issued passports enable us to travel between countries. This specification provides a mechanism to express these sorts of credentials on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable.</p>
+<p>Comments, including implementation experience, are welcome via <a href="https://github.com/w3c/vc-data-model/issues/">GitHub</a> through <strong>18 January 2022</strong>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[First Public Working Draft: IMSC Hypothetical Render Model]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9318" />
+
+		<id>https://www.w3.org/blog/news/?p=9318</id>
+		<updated>2021-12-02T07:05:36Z</updated>
+		<published>2021-11-09T08:10:33Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Timed Text Working Group has published a First Public Working Draft of IMSC Hypothetical Render Model. This specification specifies an Hypothetical Render Model (HRM) that measures the complexity of caption and subtitle documents that conform to the IMSC Recommendation, so that they do not overload players. For more information, see the blog post Keeping [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9318"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/blog/2021/08/keeping-the-complexity-of-imsc-documents-under-control/"><img src="https://www.w3.org/blog/news/files/2021/11/139459388-f7a9b2cc-8152-46e6-806b-9870bb6331e6.png" alt="image of IMSC DOCUMENT COMPLEXITY" width="100" /></a>The <a href="https://www.w3.org/groups/wg/timed-text">Timed Text Working Group</a> has published a First Public Working Draft of <a href="https://www.w3.org/TR/2021/WD-imsc-hrm-20211109/">IMSC Hypothetical Render Model</a>. This specification specifies an Hypothetical Render Model (HRM) that measures the complexity of caption and subtitle documents that conform to the <a href="https://www.w3.org/TR/ttml-imsc/">IMSC Recommendation</a>, so that they do not overload players. For more information, see the blog post <a href="https://www.w3.org/blog/2021/08/keeping-the-complexity-of-imsc-documents-under-control/">Keeping the complexity of IMSC documents under control</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[Working Group Note: EPUB 3 Structural Semantics Vocabulary 1.1]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9307" />
+
+		<id>https://www.w3.org/blog/news/?p=9307</id>
+		<updated>2021-11-30T08:17:39Z</updated>
+		<published>2021-11-04T07:50:32Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The EPUB 3 Working Group has just published the Working Group Note of EPUB 3 Structural Semantics Vocabulary 1.1. This vocabulary, a part of EPUB 3, defines a set of properties relating to the description of structural semantics of written works. Structural semantics add additional meaning about the specific structural purpose an HTML (or SVG) [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9307"><![CDATA[<p>The <a href="https://www.w3.org//publishing/groups/epub-wg/">EPUB 3 Working Group</a> has just published the Working Group Note of <a href="https://www.w3.org/TR/2021/NOTE-epub-ssv-11-20211104/">EPUB 3 Structural Semantics Vocabulary 1.1</a>. This vocabulary, a part of EPUB 3, defines a set of properties relating to the description of structural semantics of written works.</p>
+<p>Structural semantics add additional meaning about the specific structural purpose an HTML (or SVG) element plays. The <code>epub:type</code> attribute, defined in EPUB 3.3, is used to express domain-specific semantics in EPUB Content Documents and Media Overlay Documents, with the structural information it carries complementing the underlying vocabulary. The applied semantics refine the meaning of their containing elements without changing their nature for assistive technologies, as happens when using the similar <code>role</code> attribute in HTML. The attribute does not enhance the accessibility of the content, in other words, only provides hints about the purpose. This documents defines the default vocabulary that can be used with the <code>epub:type</code> attribute.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[W3C updates its Process Document]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9313" />
+
+		<id>https://www.w3.org/blog/news/?p=9313</id>
+		<updated>2021-12-09T14:49:52Z</updated>
+		<published>2021-11-02T12:18:30Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[The W3C Membership approved the 2 November 2021 W3C Process Document, which takes effect today. Notable changes include: Registries Track: Introduced a specialized track for maintaining Registries at W3C. W3C Statements: Notes endorsed by W3C as a whole, through an Advisory Committee Review. TAG and AB Publications: The W3C Technical Architecture Group (TAG) and Advisory [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9313"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/2021/Process-20211102/"><img src="https://www.w3.org/comm/assets/icons/megaphone.png" alt="megaphone" width="100" /></a>The W3C Membership approved the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 W3C Process Document</a>, which takes effect today.</p>
+<p>Notable changes include:</p>
+<ul class="show_items">
+<li>Registries Track: Introduced a specialized track for maintaining Registries at W3C.</li>
+<li>W3C Statements: Notes endorsed by W3C as a whole, through an Advisory Committee Review.</li>
+<li>TAG and AB Publications: The W3C Technical Architecture Group (TAG) and Advisory Board (AB) are now allowed to publish Notes.</li>
+<li>Track Separation: Recommendations, Notes+Statements, Registries are on separated publication tracks to make it easier to know what the intended end-state of a document might be.</li>
+<li>Tooling Policy: Defined guidelines for the tools that groups use for publication and collaboration, to ensure long-lived access to W3C publications, and to enable access and effective participation by anyone.</li>
+</ul>
+<p>You can read more about <a href="https://www.w3.org/2021/Process-20211102/#changes-2020">all changes</a> since the 15 September 2020 Process Document, read the <a href="https://www.w3.org/Consortium/Process/Drafts/issues-20210603">complete disposition of comments</a>, or peruse the <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fsnapshots%2F2021-07-16&amp;doc2=https%3A%2F%2Fwww.w3.org%2F2021%2FProcess-20211102%2F">diff</a>.</p>
+<p>This document was developed between the <a href="/2002/ab/">W3C Advisory Board</a> and the public <a href="/community/w3process">Revising W3C Process Community Group</a>. Comments and feedback on the new Process Document may be sent as issues in the <a href="https://github.com/w3c/w3process/issues">public GitHub Repository</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>François Daoust</name>
+					</author>
+
+		<title type="html"><![CDATA[Speakers announced for the W3C/SMPTE Workshop on Professional Media Production on the Web]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9303" />
+
+		<id>https://www.w3.org/blog/news/?p=9303</id>
+		<updated>2021-11-12T00:13:50Z</updated>
+		<published>2021-10-27T05:09:03Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[W3C announced today the speakers of the W3C/SMPTE Workshop on Professional Media Production on the Web. The presentations are online, so they can be watched in your own time. Each talk has full closed-captions, and a transcript is also available. Workshop participants are encouraged to discuss ideas, needs, and issues raised in the talks through [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9303"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/2021/03/media-production-workshop/"><img src="https://www.w3.org/2021/03/media-production-workshop/media/timeline-thin-sm.jpg" alt="Timeline photo by Jacob Miller on Unsplash" height="80" /></a>W3C announced today the <a href="https://www.w3.org/2021/03/media-production-workshop/talks.html">speakers of the W3C/SMPTE Workshop on Professional Media Production on the Web</a>.</p>
+<p>The <a href="https://www.w3.org/2021/03/media-production-workshop/talks.html">presentations are online</a>, so they can be watched in your own time. Each talk has full closed-captions, and a transcript is also available. Workshop participants are encouraged to discuss ideas, needs, and issues raised in the talks through <a href="https://github.com/w3c/media-production-workshop/issues">GitHub issues</a>.</p>
+<p>Outcomes of online discussions will be crystallized through a series of 4 live calls, 9-18 November. The event is free and open to anyone with relevant perspectives on the topic. Please <a href="https://www.w3.org/2002/09/wbs/1/media-production-ws-2021/">register</a> by <strong>5 November</strong> to be notified about live sessions. </p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[W3C co-signs Global Encryption Day Statement]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9298" />
+
+		<id>https://www.w3.org/blog/news/?p=9298</id>
+		<updated>2021-11-15T13:27:00Z</updated>
+		<published>2021-10-21T13:48:28Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Uncategorized" /><category scheme="https://www.w3.org/blog/news" term="Web of Services" />
+		<summary type="html"><![CDATA[W3C today signed the Global Encryption Day Statement, in support of strong encryption, organized by the Global Encryption Coalition (of which we are members). Make the Switch on Global Encryption Day today; find events across timezones. Please, read more in the blog post published by Wendy Seltzer.]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9298"><![CDATA[<p>W3C today signed the <a href="https://ged.globalencryption.org/statement/">Global Encryption Day Statement</a>, in support of strong encryption, organized by the Global Encryption Coalition (of which we are members). Make the Switch on Global Encryption Day today; find <a href="https://ged.globalencryption.org/events/">events across timezones</a>. Please, read more in the <a href="https://www.w3.org/blog/2021/10/w3c-co-signs-the-global-encryption-day-statement/">blog post</a> published by Wendy Seltzer.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[W3C Strategic Highlights, October 2021]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9295" />
+
+		<id>https://www.w3.org/blog/news/?p=9295</id>
+		<updated>2021-11-05T09:40:33Z</updated>
+		<published>2021-10-19T13:11:51Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Home Page Stories" /><category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[W3C released today to the public the October 2021 edition of the W3C Strategic Highlights. This report highlights recent work W3C Members and the public do at the Web Consortium to enhance the Web platform, work towards its growth and strength so that the web remains a tool that has and will continue to accelerate [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9295"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/2021/10/TPAC/Overview.html"><img src="https://www.w3.org/comm/assets/icons/megaphone.png" alt="megaphone" width="100" /></a>W3C released today to the public the October 2021 edition of the <a href="https://www.w3.org/2021/10/w3c-highlights/Overview.html">W3C Strategic Highlights</a>. This report highlights recent work W3C Members and the public do at the Web Consortium to enhance the Web platform, work towards its growth and strength so that the web remains a tool that has and will continue to accelerate scientific cooperation and discoveries, a social means to bridge families and friends, a way to learn online and grow skills, an instrument to conduct successful business, and much more.</p>
+<p>You will find in this semi-annual report updates in key areas that are core to the Web platform, but also how W3C meets the needs of industry and society as a whole, how the future of Web standards is determined, and the latest information on Web for all and outreach to the world.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[W3C TPAC 2021 Exhibition Space opens for registration]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9288" />
+
+		<id>https://www.w3.org/blog/news/?p=9288</id>
+		<updated>2021-11-04T07:40:53Z</updated>
+		<published>2021-10-15T13:24:14Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Uncategorized" />
+		<summary type="html"><![CDATA[W3C&#8217;s annual technical meeting, TPAC, has a unique feature this year &#8211; an Exhibition Space that is open to the public! If you&#8217;re interested in learning about solutions that you can leverage, then register to come visit us. The W3C TPAC Exhibition Hall is open from 18 &#8211; 24 October so please stop by and [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9288"><![CDATA[<p><a class="imageLink" href="https://www.w3.org/2021/10/TPAC/"><img src="https://www.w3.org/2021/10/TPAC/images/TPAC-2021-cover.svg" alt="TPAC 2021" width="150" /></a>W3C&#8217;s annual technical meeting, <abbr title="Technical Plenary and Advisory Committee meetings"><a href="https://www.w3.org/2021/10/TPAC/">TPAC</a></abbr>, has a unique feature this year &#8211; an <strong>Exhibition Space</strong> that is open to the public! If you&#8217;re interested in learning about solutions that you can leverage, then <a href="https://ti.to/w3c/tpac-expo">register</a> to come visit us. The <a href="https://www.w3.org/2021/10/TPAC/format.html#expo">W3C TPAC Exhibition Hall</a> is open from 18 &#8211; 24 October so please stop by and visit our great Sponsors &#8211; Coil, Legible, Igalia and Movement for an Open Web. </p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Coralie Mercier</name>
+							<uri>https://koalie.blog/</uri>
+						</author>
+
+		<title type="html"><![CDATA[W3C and Yubico offer first online Web Authentication course for developers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9282" />
+
+		<id>https://www.w3.org/blog/news/?p=9282</id>
+		<updated>2021-11-15T13:26:51Z</updated>
+		<published>2021-10-14T13:13:20Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" /><category scheme="https://www.w3.org/blog/news" term="Web of Services" />
+		<summary type="html"><![CDATA[W3C and Yubico announced today the opening of registration for a W3Cx online education course that teaches developers how to build and incorporate modern authentication techniques into their web-based applications using W3C’s Web Authentication (WebAuthn). Both organizations collaborated to design the Massive Open Online Course (MOOC) titled “Introduction to Web Authentication” to equip learners with [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9282"><![CDATA[<p><a class="imageLink" href="/2021/10/pressrelease-webauthn-mooc.html.en"><img loading="lazy" src="/Icons/WWW/w3c_home_nb.png" alt="W3C" height="48" width="72" /><img src="/2021/10/yubico-logo-small.png" alt="Yubico" height="48" /></a>W3C and Yubico announced today the opening of registration for a W3Cx online education course that teaches developers how to build and incorporate modern authentication techniques into their web-based applications using W3C’s Web Authentication (WebAuthn). Both organizations collaborated to design the Massive Open Online Course (MOOC) titled “Introduction to Web Authentication” to equip learners with the knowledge to replace aging password-based credentials with a secure model that incorporates strong authentication. The course to begin 30 November 2021 is free to learners who can opt-into a paid course and earn a certificate of completion. Please, read more in our <a href="/2021/10/pressrelease-webauthn-mooc.html.en">joint press release</a>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[First Public Working Draft: Accessibility of Remote Meetings]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9286" />
+
+		<id>https://www.w3.org/blog/news/?p=9286</id>
+		<updated>2021-11-09T12:47:39Z</updated>
+		<published>2021-10-14T07:46:24Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The Accessible Platform Architectures Working Group has published a First Public Working Draft of Accessibility of Remote Meetings. Remote meeting is an umbrella term used to describe real-time discussions or presentations held between two or more parties online. The issues faced by people with disabilities will vary depending on the implementation of accessibility requirements and [&#8230;]]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9286"><![CDATA[<p>The <a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a> has published a First Public Working Draft of <a href="https://www.w3.org/TR/2021/WD-remote-meetings-20211014/">Accessibility of Remote Meetings</a>. Remote meeting is an umbrella term used to describe real-time discussions or presentations held between two or more parties online. The issues faced by people with disabilities will vary depending on the implementation of accessibility requirements and current limitations of remote meeting software. While W3C has applicable guidance across several standards and Notes relating to real-time communication and XR, it is this level of complexity that this document endeavours to address.</p>
+<p>Comments are welcome through <strong>19th November 2021</strong>.</p>
+]]></content>
+		
+			</entry>
+		<entry>
+		<author>
+			<name>Xueyuan Jia</name>
+					</author>
+
+		<title type="html"><![CDATA[Updated Candidate Recommendation: Media Capture and Streams]]></title>
+		<link rel="alternate" type="text/html" href="https://www.w3.org/blog/news/archives/9280" />
+
+		<id>https://www.w3.org/blog/news/?p=9280</id>
+		<updated>2021-11-09T08:05:41Z</updated>
+		<published>2021-10-13T11:37:43Z</published>
+		<category scheme="https://www.w3.org/blog/news" term="Publication" /><category scheme="https://www.w3.org/blog/news" term="Web Design and Applications" />
+		<summary type="html"><![CDATA[The WebRTC Working Group invites implementation of an updated Candidate Recommendation Snapshot of Media Capture and Streams. This document defines a set of JavaScript APIs that allow local media, including audio and video, to be requested from a platform. Comments are welcome via the GitHub issues by 13 November 2021.]]></summary>
+
+					<content type="html" xml:base="https://www.w3.org/blog/news/archives/9280"><![CDATA[<p>The <a href="https://www.w3.org/groups/wg/webrtc">WebRTC Working Group</a> invites implementation of an updated Candidate Recommendation Snapshot of <a href="https://www.w3.org/TR/2021/CR-mediacapture-streams-20211013/">Media Capture and Streams</a>. This document defines a set of JavaScript APIs that allow local media, including audio and video, to be requested from a platform.</p>
+<p>Comments are welcome via the <a href="https://github.com/w3c/mediacapture-main/issues/">GitHub issues</a> by <strong>13 November 2021</strong>.</p>
+]]></content>
+		
+			</entry>
+	</feed>
