@@ -406,20 +406,69 @@ p.signed {
 
 footer {
   max-width: 500px;
-  margin: 40px auto;
+  margin: 20px auto;
   font-family: 'Nobile', sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 10px;
+  line-height: 1.2;
   color: #888;
   text-align: center;
 }
+	 div{
+	 max-width: 1000px;
+	 }
+	 h1, p{
+	 width: 100%;
+		 text-align: center;
+		 color: #fff;
+		 font-size: 8em;
+		 filter: blur(1px);
+		 text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+			 0 0 20px rgba(255, 255, 255, 1),
+			 0 0 40px rgba(255, 255, 255, 1),
+			 0 0 80px rgba(255, 255, 255, 1),
+			 0 0 160px rgba(255, 255, 255, 1);
+	 }
+	 p{
+	    
+		 font-size: 1em;
+		 filter: blur(.6px);
+		 text-shadow: 0 0 1px rgba(255, 255, 255, 1),
+			 0 0 2px rgba(255, 255, 255, 1),
+			 0 0 4px rgba(255, 255, 255, 1),
+			 0 0 8px rgba(255, 255, 255, 1),
+			 0 0 1px rgba(255, 255, 255, 1);
+	 }
+	 section:before{
+	 
+	                content: "";
+		 width: 100%;
+		 height: 100%;
+		 background: #00adff;
+		 z-index: 1;
+		 mix-blend-mode: color;
+		 animation: animate 10s linear infinite; 
+	 
+	 }
+	 @keyframes animate
+	 {
+	 0%
+		 {
+		 filter: hue-rotate(0deg);
+		 }
+		 100%
+		 {
+		 filter: hue-rotate(360deg);
+		 }
+	 }
+	 
   </style>
   </head>
 <body>
   <div id="card">
     <div id="card-inside">
       <div class="wrap">
-        <p>Hey,</p>
+	      	<section>
+        <h1>Hey,</h1>
         <p>“A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy birthday!</p>
         <p>I will be there with you in your side whenever you seek me.
         </p>
